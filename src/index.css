@@ -1,0 +1,21 @@
+html {
+	box-sizing: border-box;
+	font-family: 'Roboto', sans-serif;
+	font-size: 16px;
+	line-height: 24px;
+	letter-spacing: 0.5px;
+	background: #f9f9f9;
+	-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+*,
+*:before,
+*:after {
+	box-sizing: inherit;
+}
+
+body {
+	margin: 0 0;
+	overscroll-behavior-y: contain;
+	overscroll-behavior-x: none;
+}
